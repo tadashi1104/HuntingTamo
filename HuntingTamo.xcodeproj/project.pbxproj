@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A6FC141B36639900FEFA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6FC131B36639900FEFA41 /* AppDelegate.swift */; };
+		40A6FC161B36639900FEFA41 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 40A6FC151B36639900FEFA41 /* GameScene.sks */; };
+		40A6FC181B36639900FEFA41 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6FC171B36639900FEFA41 /* GameScene.swift */; };
+		40A6FC1A1B36639900FEFA41 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6FC191B36639900FEFA41 /* GameViewController.swift */; };
+		40A6FC1D1B36639900FEFA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A6FC1B1B36639900FEFA41 /* Main.storyboard */; };
+		40A6FC1F1B36639900FEFA41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A6FC1E1B36639900FEFA41 /* Images.xcassets */; };
+		40A6FC221B36639900FEFA41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A6FC201B36639900FEFA41 /* LaunchScreen.xib */; };
+		40A6FC2E1B36639900FEFA41 /* HuntingTamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6FC2D1B36639900FEFA41 /* HuntingTamoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40A6FC281B36639900FEFA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A6FC061B36639900FEFA41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40A6FC0D1B36639900FEFA41;
+			remoteInfo = HuntingTamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40A6FC0E1B36639900FEFA41 /* HuntingTamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuntingTamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A6FC121B36639900FEFA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A6FC131B36639900FEFA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40A6FC151B36639900FEFA41 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		40A6FC171B36639900FEFA41 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		40A6FC191B36639900FEFA41 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		40A6FC1C1B36639900FEFA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40A6FC1E1B36639900FEFA41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40A6FC211B36639900FEFA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		40A6FC271B36639900FEFA41 /* HuntingTamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntingTamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A6FC2C1B36639900FEFA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A6FC2D1B36639900FEFA41 /* HuntingTamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntingTamoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40A6FC0B1B36639900FEFA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6FC241B36639900FEFA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40A6FC051B36639900FEFA41 = {
+			isa = PBXGroup;
+			children = (
+				40A6FC101B36639900FEFA41 /* HuntingTamo */,
+				40A6FC2A1B36639900FEFA41 /* HuntingTamoTests */,
+				40A6FC0F1B36639900FEFA41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40A6FC0F1B36639900FEFA41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A6FC0E1B36639900FEFA41 /* HuntingTamo.app */,
+				40A6FC271B36639900FEFA41 /* HuntingTamoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40A6FC101B36639900FEFA41 /* HuntingTamo */ = {
+			isa = PBXGroup;
+			children = (
+				40A6FC131B36639900FEFA41 /* AppDelegate.swift */,
+				40A6FC151B36639900FEFA41 /* GameScene.sks */,
+				40A6FC171B36639900FEFA41 /* GameScene.swift */,
+				40A6FC191B36639900FEFA41 /* GameViewController.swift */,
+				40A6FC1B1B36639900FEFA41 /* Main.storyboard */,
+				40A6FC1E1B36639900FEFA41 /* Images.xcassets */,
+				40A6FC201B36639900FEFA41 /* LaunchScreen.xib */,
+				40A6FC111B36639900FEFA41 /* Supporting Files */,
+			);
+			path = HuntingTamo;
+			sourceTree = "<group>";
+		};
+		40A6FC111B36639900FEFA41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A6FC121B36639900FEFA41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40A6FC2A1B36639900FEFA41 /* HuntingTamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				40A6FC2D1B36639900FEFA41 /* HuntingTamoTests.swift */,
+				40A6FC2B1B36639900FEFA41 /* Supporting Files */,
+			);
+			path = HuntingTamoTests;
+			sourceTree = "<group>";
+		};
+		40A6FC2B1B36639900FEFA41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A6FC2C1B36639900FEFA41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40A6FC0D1B36639900FEFA41 /* HuntingTamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A6FC311B36639900FEFA41 /* Build configuration list for PBXNativeTarget "HuntingTamo" */;
+			buildPhases = (
+				40A6FC0A1B36639900FEFA41 /* Sources */,
+				40A6FC0B1B36639900FEFA41 /* Frameworks */,
+				40A6FC0C1B36639900FEFA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuntingTamo;
+			productName = HuntingTamo;
+			productReference = 40A6FC0E1B36639900FEFA41 /* HuntingTamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40A6FC261B36639900FEFA41 /* HuntingTamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40A6FC341B36639900FEFA41 /* Build configuration list for PBXNativeTarget "HuntingTamoTests" */;
+			buildPhases = (
+				40A6FC231B36639900FEFA41 /* Sources */,
+				40A6FC241B36639900FEFA41 /* Frameworks */,
+				40A6FC251B36639900FEFA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40A6FC291B36639900FEFA41 /* PBXTargetDependency */,
+			);
+			name = HuntingTamoTests;
+			productName = HuntingTamoTests;
+			productReference = 40A6FC271B36639900FEFA41 /* HuntingTamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40A6FC061B36639900FEFA41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Tadashi.S;
+				TargetAttributes = {
+					40A6FC0D1B36639900FEFA41 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					40A6FC261B36639900FEFA41 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 40A6FC0D1B36639900FEFA41;
+					};
+				};
+			};
+			buildConfigurationList = 40A6FC091B36639900FEFA41 /* Build configuration list for PBXProject "HuntingTamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40A6FC051B36639900FEFA41;
+			productRefGroup = 40A6FC0F1B36639900FEFA41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40A6FC0D1B36639900FEFA41 /* HuntingTamo */,
+				40A6FC261B36639900FEFA41 /* HuntingTamoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40A6FC0C1B36639900FEFA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6FC221B36639900FEFA41 /* LaunchScreen.xib in Resources */,
+				40A6FC1F1B36639900FEFA41 /* Images.xcassets in Resources */,
+				40A6FC161B36639900FEFA41 /* GameScene.sks in Resources */,
+				40A6FC1D1B36639900FEFA41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6FC251B36639900FEFA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40A6FC0A1B36639900FEFA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6FC181B36639900FEFA41 /* GameScene.swift in Sources */,
+				40A6FC1A1B36639900FEFA41 /* GameViewController.swift in Sources */,
+				40A6FC141B36639900FEFA41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40A6FC231B36639900FEFA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A6FC2E1B36639900FEFA41 /* HuntingTamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40A6FC291B36639900FEFA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40A6FC0D1B36639900FEFA41 /* HuntingTamo */;
+			targetProxy = 40A6FC281B36639900FEFA41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40A6FC1B1B36639900FEFA41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A6FC1C1B36639900FEFA41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40A6FC201B36639900FEFA41 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40A6FC211B36639900FEFA41 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40A6FC2F1B36639900FEFA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40A6FC301B36639900FEFA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40A6FC321B36639900FEFA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuntingTamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40A6FC331B36639900FEFA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HuntingTamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40A6FC351B36639900FEFA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuntingTamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuntingTamo.app/HuntingTamo";
+			};
+			name = Debug;
+		};
+		40A6FC361B36639900FEFA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuntingTamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HuntingTamo.app/HuntingTamo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40A6FC091B36639900FEFA41 /* Build configuration list for PBXProject "HuntingTamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6FC2F1B36639900FEFA41 /* Debug */,
+				40A6FC301B36639900FEFA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40A6FC311B36639900FEFA41 /* Build configuration list for PBXNativeTarget "HuntingTamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6FC321B36639900FEFA41 /* Debug */,
+				40A6FC331B36639900FEFA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40A6FC341B36639900FEFA41 /* Build configuration list for PBXNativeTarget "HuntingTamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A6FC351B36639900FEFA41 /* Debug */,
+				40A6FC361B36639900FEFA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40A6FC061B36639900FEFA41 /* Project object */;
+}
