@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  HuntingTamo
+
+  Created by 鈴木 義 on 2015/06/22.
+  Copyright (c) 2015年 Tadashi.S. All rights reserved.
+*/
+
+"Prologue1_1" = "Tamoは、身体を探していた。";
+"Prologue1_2" = "だがしかし、Tamoは疲れを感じていた。";
+"Prologue1_3" = "いったいどれだけの距離を探しただろうか。";
+"Prologue1_4" = "見つからない。身体はどこに消えたのか？";
+"Prologue1_5" = "そんな時、Tamoに異変が起きた。";
+"Prologue1_6" = "その異変とは？";
+
+"Prologue2_1" = "Tamoから出てきたものとは？";
+"Prologue2_2" = "そう、それは感情。。。";
+"Prologue2_3" = "長い旅の果てに、Tamoから感情が消えた。";
+"Prologue2_4" = "そして、その感情は外の世界に。。。";
+"Prologue2_5" = "このままでは世界にTamoの感情が溢れてしまう。";
+"Prologue2_6" = "Tamoの感情を探し出して、Tamoに戻すんだ！";
+
+"SkipLabel" = "TapでSkip";
+
+"Description1" = "Tamoの感情は";
+"Description2" = "感情の文字を起点に";
+"Description3" = "上から、下から、右から、左から";
+"Description4" = "君に向かってくる";
+"Description5" = "画面をTapすると";
+"Description6" = "特殊な玉が発射され";
+"Description7" = "2次元のTamoへ感情が戻る";
+"Description8" = "気をつけてくれ";
+"Description9" = "Tamoにぶつかると";
+"Description10" = "君の感情はTamoの感情に";
+"Description11" = "塗り替えられてしまう";
+"Description12" = "そうなる前に全ての感情を";
+"Description13" = "Tamoに戻すんだ！";
+"Description14" = "文字は突然移動する";
+"Description15" = "見失ったら探すんだ！";
+
+"Signal" = "さぁ、始めよう！";
+"StartSignal" = "TapでStart";
+
+"Remainder" = "残";
+
+"Complete" = "任務完了！";
+
+"FinalMessage" = "いよいよ最後だ";

@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        //nendの広告をロード
+//        NADInterstitial.sharedInstance().loadAdWithApiKey("308c2499c75c4a192f03c02b2fcebd16dcb45cc9", spotId: "213208")
+        
         return true
     }
 
